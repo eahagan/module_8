@@ -30,6 +30,13 @@ class Motorbike extends Vehicle {
     wheels: Wheel[]
   ) {
     super();
+    this.vin = vin;
+    this.color = color;
+    this.make = make;
+    this.model = model;
+    this.year = year;
+    this.weight = weight;
+    this.topSpeed = topSpeed;
     // TODO: Override the printDetails method from the Vehicle class
     // TODO: The method should call the printDetails method of the parent class
     // TODO: The method should log the details of the Motorbike
